@@ -46,9 +46,13 @@ Although this might not seem like a lot, the true potential of this command can 
 In another world, you'd want to know the number of files that do not have a particular word. 
 Just like how `-l` search for a string in files and gives those file names as the output, `-L` outputs the files that do not have the given string (big brothers do be opposing the younger one all the time). 
 In the example given below, I am using `-r` in combination with `-L` to find out how many files do not have the word "Lucayans"
+
+
 ![big L](https://github.com/madhoolikacvss/lab_rep_3/blob/main/grep%20L.jpg)
 
 As expected, there are too many file names, and to solve that, we can again combine this comman with `|wc -l` - gives us the number fo files that do not have "Lucayans"
+
+
 ![not L and wc](https://github.com/madhoolikacvss/lab_rep_3/blob/main/not%20rl%20and%20wc.jpg)
 
 
