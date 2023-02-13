@@ -38,7 +38,7 @@ Now that we discovered how useful `-rl` is, we can use it in combination with an
 We can use the command `wc - l` that counts the number of file names that have been returned by `grep -rl "string"` and outputs the number.
 Although `wc` is not a flag for `grep` this example shows how useful and effective combinign two commands can be. 
 In the example below, my input was `grep -rl "Lucayans" | wc -l` which gave out the following output:
-1[ rl and wc](https://github.com/madhoolikacvss/lab_rep_3/blob/main/rl%20and%20wc%20example%201.jpg)
+![ rl and wc](https://github.com/madhoolikacvss/lab_rep_3/blob/main/rl%20and%20wc%20example%201.jpg)
 
 Although this might not seem like a lot, the true potential of this command can be seen in the example below, where the number of files have the given word are in hundreds.
 ![rl wc ex 2](https://github.com/madhoolikacvss/lab_rep_3/blob/main/rl%20and%20wc%20example%202.jpg)
@@ -57,4 +57,5 @@ As expected, there are too many file names, and to solve that, we can again comb
 ![not L and wc](https://github.com/madhoolikacvss/lab_rep_3/blob/main/not%20rl%20and%20wc.jpg)
 
 
+Siting resources:
 I have used [this](https://www.vogella.com/tutorials/UnixGrep/article.html) website to help me with understanding the uses and purposes of each flag that grep has. 
