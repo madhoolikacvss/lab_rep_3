@@ -1,6 +1,7 @@
 #LAB REPORT 3 - EXPLORING COMMANDS
 
 ##grep supremacy##
+
 For this Lab Report I am going to be exploring interesting flags of grep command. I chose grep solely due to how interesting I thought it was while using it for the tasks in the skill demo. 
 While looking for quick ways to do tasks like searching for a name through all the files, etc I discovered that grep can be used in combination with multiple flags for efficieny. 
 
