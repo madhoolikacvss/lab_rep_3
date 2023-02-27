@@ -68,5 +68,21 @@ As expected, there are too many file names, and to solve that, we can again comb
 ![not L with wc](https://user-images.githubusercontent.com/122486374/218366944-d6df718a-ccf3-43e9-9326-052b64be2e0f.jpg)
 
 
+**grep -i "string pattern"**
+
+This command comes in very handy when you want to look for actuual text snippets that have a particular word/string pattern you are looking for. Similar to -l but adding on to it, grep -i give out the file directory that has the particular string pattern and also displays where it actually is in the file. 
+In the example given below, I was looking for the actual text that contains the word "Lucayans" and hence gave in the command `grep -i "Lucayans" written_2/*/*/*.txt` which have be the following output:
+![grep i](https://user-images.githubusercontent.com/122486374/221454698-fc94608e-e63d-4caf-a3ba-18f49f4d151f.jpg)
+
+As we already saw with the grep -l command, the only file that contains the word "Lucayans" is Bahamas-History.txt, but the -i flag also shows us the two paces in this file where the word actually shows up.
+
+I carried out a similar command for another word "phobia" with the command `grep -i "phobia" written_2/*/*/*.txt`, and the output was as shown below:
+![grep i phobia](https://user-images.githubusercontent.com/122486374/221455154-f8a00c96-1041-41dc-b572-6c15434c729c.jpg)
+
+This flag however has one downside to it - if the string pattern is popular within the given directory, the output will we really long. It however does the job of displaying the texts with the given word very efficiently.
+
+
+
+
 Siting resources:
 I have used [this](https://www.vogella.com/tutorials/UnixGrep/article.html) website to help me with understanding the uses and purposes of each flag that grep has. 
