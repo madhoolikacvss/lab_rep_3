@@ -33,7 +33,7 @@ For example if you did not want to search the entire folder and just a file insi
 ![cd into travel](https://user-images.githubusercontent.com/122486374/218366771-11144ae3-db27-4822-90bb-e5151bb3ef33.jpg)
 
 
-Or, you could type in the filder name as given below (my current directory was skill-demo1-data and I added the folder name written_2 as I wanted to search only in that folder):
+Or, you could type in the folder's name as given below (my current directory was skill-demo1-data and I added the folder name written_2 as I wanted to search only in that folder):
 ![not travel](https://user-images.githubusercontent.com/122486374/218366792-13f09aa5-a7c4-4854-8c6e-0b510c0d4387.jpg)
 
 
@@ -84,5 +84,5 @@ This flag however has one downside to it - if the string pattern is popular with
 
 
 
-Siting resources:
+Citing resources:
 I have used [this](https://www.vogella.com/tutorials/UnixGrep/article.html) website to help me with understanding the uses and purposes of each flag that grep has. 
